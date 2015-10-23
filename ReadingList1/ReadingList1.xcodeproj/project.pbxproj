@@ -67,7 +67,7 @@
 		AB9059381822D13900E7C8BD /* AOITestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9059371822D13900E7C8BD /* AOITestCase.m */; };
 		AB906D101BD68B1900EB7BB0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB906D0F1BD68B1900EB7BB0 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		AB906D131BD69B0900EB7BB0 /* RELCustomBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB906D121BD69B0900EB7BB0 /* RELCustomBookCell.m */; settings = {ASSET_TAGS = (); }; };
-		AB906D171BD6D57600EB7BB0 /* Miscellaneous.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB906D161BD6D57600EB7BB0 /* Miscellaneous.xib */; settings = {ASSET_TAGS = (); }; };
+		ABF170291BDA619C00CC9FBA /* RELTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF170281BDA619C00CC9FBA /* RELTitleLabel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,7 +150,8 @@
 		AB906D0F1BD68B1900EB7BB0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AB906D111BD69B0900EB7BB0 /* RELCustomBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELCustomBookCell.h; sourceTree = "<group>"; };
 		AB906D121BD69B0900EB7BB0 /* RELCustomBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELCustomBookCell.m; sourceTree = "<group>"; };
-		AB906D161BD6D57600EB7BB0 /* Miscellaneous.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Miscellaneous.xib; sourceTree = "<group>"; };
+		ABF170271BDA619C00CC9FBA /* RELTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELTitleLabel.h; sourceTree = "<group>"; };
+		ABF170281BDA619C00CC9FBA /* RELTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELTitleLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				AB44B07C181FFDB10006F814 /* Main.storyboard */,
-				AB906D161BD6D57600EB7BB0 /* Miscellaneous.xib */,
 				AB906D0F1BD68B1900EB7BB0 /* Launch Screen.storyboard */,
 				AB44B05C181FFC670006F814 /* RELAppDelegate.h */,
 				AB44B05D181FFC670006F814 /* RELAppDelegate.m */,
@@ -221,6 +221,8 @@
 				AB44B07F18200C960006F814 /* RELReadingListController.m */,
 				AB906D111BD69B0900EB7BB0 /* RELCustomBookCell.h */,
 				AB906D121BD69B0900EB7BB0 /* RELCustomBookCell.m */,
+				ABF170271BDA619C00CC9FBA /* RELTitleLabel.h */,
+				ABF170281BDA619C00CC9FBA /* RELTitleLabel.m */,
 				AB44B0B3182050F80006F814 /* RELViewBookController.h */,
 				AB44B0B4182050F80006F814 /* RELViewBookController.m */,
 				AB35D69E18214A0C009D4A93 /* RELEditBookController.h */,
@@ -419,7 +421,6 @@
 				AB44B09F18201B8B0006F814 /* BooksAndAuthors.plist in Resources */,
 				AB44B0A718201B8B0006F814 /* Milne.png in Resources */,
 				AB44B060181FFC670006F814 /* Images.xcassets in Resources */,
-				AB906D171BD6D57600EB7BB0 /* Miscellaneous.xib in Resources */,
 				AB44B0AB18201B8B0006F814 /* Shakespeare.png in Resources */,
 				AB44B0B018201B8B0006F814 /* Whitman.png in Resources */,
 				AB44B0AD18201B8B0006F814 /* Tolstoy.png in Resources */,
@@ -455,6 +456,7 @@
 				AB44B09D18201B8B0006F814 /* Author.m in Sources */,
 				AB44B05A181FFC670006F814 /* main.m in Sources */,
 				AB44B0B5182050F80006F814 /* RELViewBookController.m in Sources */,
+				ABF170291BDA619C00CC9FBA /* RELTitleLabel.m in Sources */,
 				AB35D69A18205AB7009D4A93 /* UIImage+RELAdditions.m in Sources */,
 				AB35D6A018214A0C009D4A93 /* RELEditBookController.m in Sources */,
 			);
